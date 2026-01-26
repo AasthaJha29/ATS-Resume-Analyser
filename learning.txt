@@ -1,0 +1,91 @@
+aditya-cv
+We are seeking a highly analytical Investment Analyst / Financial Data Analyst with strong expertise in financial analysis, data analytics, and business intelligence reporting. The candidate should have hands-on experience using Python, SQL, Power BI, Excel, and financial modeling techniques to support investment decision-making and strategic reporting.
+
+Key responsibilities include:
+
+Performing financial analysis, valuation (DCF, DDM), and capital planning to support investment and portfolio decisions.
+
+Conducting data analysis and profiling to ensure data accuracy, integrity, and governance in financial reporting.
+
+Building and maintaining interactive Power BI dashboards and automated MIS reports for management reporting.
+
+Writing efficient SQL queries and Python scripts for data extraction, transformation, and analysis.
+
+Supporting risk assessment, credit analysis, and financial forecasting initiatives.
+
+Analyzing NBFC sector trends, growth opportunities, and financial risks.
+
+Preparing cost-benefit analysis, P&L reporting, and performance metrics.
+
+Collaborating with stakeholders and senior leadership to present actionable insights and recommendations.
+
+The ideal candidate has experience with:
+
+Power BI dashboards, Excel automation (Pivot Tables, VBA macros), and Bloomberg Terminal.
+
+Python-based data analysis and SQL database management (MySQL).
+
+Financial modeling, valuation techniques, and investment research.
+
+Data governance, privacy compliance (GDPR, CCPA), and enterprise data profiling.
+
+Strong stakeholder management, communication, and analytical skills.
+
+Experience working in consulting, banking, financial services, or analytics roles.
+
+Candidates with experience in automation frameworks, reporting optimization, and business intelligence transformation projects will be highly preferred.12
+
+
+aastha:
+📄 Job Description – Junior Data Analyst / Data Science Intern
+
+We are seeking a Junior Data Analyst / Data Science Intern with strong skills in Python, SQL, data analysis, and data visualization. The candidate should have hands-on experience working with Pandas, Matplotlib, Power BI, Tableau, and Excel to clean, analyze, and visualize datasets.
+
+Responsibilities include performing data cleaning, exploratory data analysis (EDA), dashboard creation, and reporting insights from real-world datasets such as health, employee, and business data. The role involves building interactive dashboards, writing efficient SQL queries, and presenting analytical insights to stakeholders.
+
+The ideal candidate has experience in Python programming, database management using MySQL, PostgreSQL, and Firebase, and has worked on projects involving data analytics, visualization, and automation tools. Familiarity with JavaScript, HTML, CSS, and building simple web interfaces is a plus.
+
+Candidates with exposure to machine learning concepts, AI tools, LLM-based platforms, and data-driven applications are encouraged to apply. Experience working on academic or personal projects such as interactive platforms, dashboards, analytics pipelines, and automation systems will be preferred.
+
+Strong analytical thinking, problem-solving skills, and excellent communication abilities are required.
+
+desc:
+“We used a locally deployed transformer-based embedding model to compute semantic similarity between resumes and job descriptions. The system also extracts overlapping and missing keywords to provide explainable feedback. No external APIs are used.”
+
+model use:
+huggingface.co › all-MiniLM-L6-v2sentence-transformers/all-MiniLM-L6-v2 · Hugging Face
+all-MiniLM-L6-v2 This is a sentence-transformers model: It maps sentences & paragraphs to a 384 dimensional dense vector space and can be used for tasks like clustering or semantic search.
+
+metrics:
+✅ Metric 1 — Relative Ranking Validation (Already Done)
+Run same input multiple times.
+
+Score should be identical.
+
+This proves:
+✔ Deterministic system
+✔ Stable inference
+
+✅ Metric 3 — Sensitivity Test
+
+Gradually modify JD:
+
+Add skills → score increases
+Remove skills → score decreases
+
+📄 Metrics You Can Put in Research Paper
+
+You can mention:
+
+Cosine Similarity
+
+Ranking Accuracy
+
+Correlation Score
+
+Sensitivity Analysis
+
+Stability Testing
+
+model and algo used:
+“Our system uses a pretrained Transformer-based embedding model (Sentence-BERT MiniLM) to convert resume and job descriptions into semantic vectors. We then apply the Cosine Similarity algorithm (It measures how close two meanings are.Higher cosine similarity → better match.) to compute ATS match scores. Additionally, set intersection algorithms(What role it plays Finds overlapping skills Finds missing skills Powers explainability) are used for keyword overlap analysis to provide explainability.”
